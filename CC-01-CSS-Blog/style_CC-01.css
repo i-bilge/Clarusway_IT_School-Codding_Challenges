@@ -1,0 +1,17 @@
+#container {
+    box-sizing: border-box;
+    width: auto;
+    
+    padding: auto;
+    border: 20px 10px 20px 10px;
+    border-style: solid;
+    border-color: blue;   
+    margin: auto;
+}
+
+img {
+    float: left;
+    height: 10em;
+    width: auto;
+    margin: 1px 10px 1px 10px;
+}
