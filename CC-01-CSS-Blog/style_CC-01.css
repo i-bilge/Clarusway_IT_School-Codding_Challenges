@@ -15,3 +15,10 @@ img {
     width: auto;
     margin: 1px 10px 1px 10px;
 }
+
+#div1 {
+    
+    margin: auto;
+    border: 2px solid;
+    border-color: rgb(236, 11, 48);
+}
