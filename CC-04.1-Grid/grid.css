@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    grid-template-areas: 
+    'header header header header'
+    'box1 box2 box3 side'
+    'box1 box2 box3 side'
+    'main main main side'
+    'footer footer footer footer';
+}
+.grid-container > div {
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: box1;
+}
+.item3{
+    grid-area: box2;
+}
+.item4{
+    grid-area: box3;
+}
+.item5{
+    grid-area: side;
+}
+.item6{
+    grid-area: main;
+}
+.item7{
+    grid-area: footer;
+}
