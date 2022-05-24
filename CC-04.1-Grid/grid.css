@@ -1,6 +1,10 @@
 .grid-container{
+    height: 900px;
+    width: 800px;
+    margin: auto;
+
     display: grid;
-    gap: 10px;
+    gap: 20px;
     background-color: white;
     padding: 10px;
     grid-template-areas: 
@@ -11,10 +15,11 @@
     'footer footer footer footer';
 }
 .grid-container > div {
-    background-color: blue;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    background-color: rgb(59, 59, 248);
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: white;
 }
 .item1{
     grid-area: header;

@@ -1,12 +1,8 @@
 let Text = "Tamara"
 
-// function giveReverse(s){
-//     for (var i = (text.length+1); i >= 0; i--){
-//         console.log(s[i]);
-//     }
-// }
-
-// giveReverse(Text);
+console.log("try of 1st step :",Text.split(''));
+console.log("try of 2nd step :",Text.split('').reverse());
+console.log("try of 3rd step :",Text.split('').reverse().join(''));
 
 function reverse(s) {
     return s.split('').reverse().join('');
